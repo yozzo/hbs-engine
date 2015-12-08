@@ -1,0 +1,25 @@
+/**
+ * Created by John Fieldman on 04/12/2015.
+ */
+
+'use strict';
+
+(function(){
+
+    function renderListing() {
+
+        var contentMock = contentMock || {};
+
+        $.getJSON('data/contentMock.json', function(data){
+            contentMock = data;
+            console.log(contentMock);
+
+            var rendered = App.templates.listing(contentMock);
+            $('#template-listing').html(rendered);
+        });
+    }
+
+    $(function () {
+        renderListing();
+    });
+})();

@@ -1,0 +1,20 @@
+{
+  "name": "handlebars-app",
+  "version": "0.0.0",
+  "authors": [
+    "Ryan Lewis <ryanharrisonlewis@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "v3.0.3",
+    "jquery": "~2.1.4",
+    "material-design-lite": "~1.0.4"
+  }
+}

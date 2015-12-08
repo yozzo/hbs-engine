@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "gulp-handlebars": "*",
+    "gulp-wrap": "*",
+    "gulp-declare": "*",
+    "gulp-concat": "*",
+    "gulp-concat": "*",
+    "merge-stream": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
