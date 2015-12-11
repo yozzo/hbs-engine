@@ -1,8 +1,8 @@
 {
-  "name": "handlebars-app",
+  "name": "hbs-engine",
   "version": "0.0.0",
   "authors": [
-    "Ryan Lewis <ryanharrisonlewis@gmail.com>"
+    "John Fieldman <hello@johnfieldman.com>"
   ],
   "license": "MIT",
   "ignore": [
